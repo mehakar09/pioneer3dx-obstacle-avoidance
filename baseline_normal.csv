@@ -1,0 +1,10 @@
+MAP-1,,,,,
+NoiseMode,NoiseLevel,TrialTime_sec,ClosestApproach_raw,UnsafeProximity_0or1,UnsafeProximityCount
+FALSE,0,5.86,947.7,1,1
+FALSE,0,5.86,947.7,1,1
+FALSE,0,5.86,947.7,1,1
+,,,,,
+MAP-2,,,,,
+False,0,7.01,951.7,1,1
+False,0,7.01,951.7,1,1
+False,0,7.01,951.7,1,1
