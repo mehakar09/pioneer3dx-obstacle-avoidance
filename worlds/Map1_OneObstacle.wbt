@@ -1,0 +1,37 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/adept/pioneer3/protos/Pioneer3dx.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/solids/protos/SolidBox.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.5939069194020575 0.5939067746755986 0.5427239759590373 2.147117909571641
+  position -7.446730986256537e-06 0.7289753070354474 8.095422065434542
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  rotation 0 0 1 3.14159
+  floorSize 5 6
+}
+SolidBox {
+  translation 1.2 0 0.3
+  size 0.2 0.2 0.2
+}
+Pioneer3dx {
+  hidden position_0_0 2.775770625981504
+  hidden position_0_1 23.318891656205107
+  hidden position_0_2 27.73995747311069
+  hidden rotation_1 0.7168279971902051 0.4930301978167268 0.4930302693396 1.8977309037158907
+  hidden position_1_0 -35.76993704748841
+  hidden rotation_2 1 0 0 1.929174795589107
+  hidden rotation_4 0.7044847271802669 -0.7044847739133718 0.08603762254950242 3.313245107928793
+  hidden rotation_9 -0.4438596956841711 0.4438597679428585 -0.7784452947695597 1.8186747314376348
+  controller "pioneer3dx_collision_avoidance_logger"
+}
